@@ -7,7 +7,6 @@ import type {Row} from "@tanstack/table-core";
 import {useNotify} from "~/composables/notification/notify";
 import {StatusActiveInactiveEnum} from "~/utils/enum/status.active.inactive.enum";
 import {DateUtil} from "~/utils/date/date.util";
-import {RouteUtil} from "~/utils/route/route.util";
 
 export class TableColumnHeaderDTO {
     protected object: TableColumn<any>[] = []
